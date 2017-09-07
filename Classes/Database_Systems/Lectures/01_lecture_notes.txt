@@ -1,0 +1,66 @@
+Define:
+
+Order-By:
+Order-Dependency:
+Group-By:
+
+
+Dates+Times
+
+First Lab is week of sep 18th
+Office Hours=Thursday at 11am
+
+
+Contact:
+
+Jarek=jarowslaw.szlichta@uoit.ca
+Guilherme=Guilherme.FetterDamasio@uoit.ca
+
+
+TODO:
+
+Get Textbook
+Make sure PostgreSQL is working
+
+
+Chapter 2 Notes:
+
+
+Data Model= Notation for describing data or info. 
+Consists of 3 parts;
+
+1. Structure of data. (Data structures used to implement data)
+Note: In context of databases "data structures" may be called
+"physical data model"
+
+2. Operations on Data: Limited set of operations allowed on data.
+
+3. Constraints on Data: Limited set of ways data can be stored or values
+it can take.
+
+The 2 important data models we'll study are;
+
+1. Relational Model.
+2. Semistructured-Data Model.
+
+
+Relational Model:
+
+Relation == 2D Table (These tables are what programmers are meant to think about
+when accessing/modifying data. They serve as a high level abstraction for a much
+more efficient data-structure implementation under the hood).
+Operations performed on these relations are made up of relational algebra.
+
+Semitructured-Data Model:
+
+Resembles trees or graphs rather than tables.
+XML is a good example of this (consisting of hierarchical nested tagged elements).
+Operations are performed on this model by following the trees or graphs to get to
+the desired element.
+
+
+
+
+
+END: LEFT OFF AT 2.1.5 IN PDF.
+
