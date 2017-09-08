@@ -1,0 +1,29 @@
+
+
+Relation=2D Table that consists of:
+
+1. Attributes: Columns of the relation
+2. Schemas: Name of the relation + set of attributes for that relation
+3. Tuples: Rows of the relation (minus the header row containing the attribute names). Tuples have 1 component for each attribute.
+
+
+
+Domain: The elementary type of an attribute (string, int, etc). Each attribute of a relation must have a Domain associated with it. The domain must be atomic (can't break it down further i.e no maps, sets, objects, etc).
+
+
+You can include the Domain of each attribute in a schema like this: Movies(title:string, year:int, length:int).
+
+The order of the tuples in a relation don't matter and can be changed with no concequence.
+
+The order of attributes can also be changed (Remember the schema order must then be changed as well).
+
+
+Instance: Set of tuples for a given relation.
+
+Current Instance: Most up to date instance.
+
+Key: A type of constraint on a schema. A set of attributes forms a key for a relation if no tuples in a particular relation instance have the same values for all attributes in the key. The attributes that form a key are indicated by underling them in the schema.
+
+
+
+
