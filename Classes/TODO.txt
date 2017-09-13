@@ -1,0 +1,11 @@
+Databases:
+
+Read 2.3
+Learn SQL + XML basics (described at end of lecture 0-1.txt)
+
+
+Stats:
+
+Finish assignment 1
+
+Discrete:

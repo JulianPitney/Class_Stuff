@@ -1,0 +1,84 @@
+Data Model= Notation for describing data or info. 
+Consists of 3 parts;
+
+1. Structure of data. (Data structures used to implement data)
+Note: In context of databases "data structures" may be called
+"physical data model"
+
+2. Operations on Data: Limited set of operations allowed on data.
+
+3. Constraints on Data: Limited set of ways data can be stored or values
+it can take.
+
+The 2 important data models we'll study are;
+
+1. Relational Model.
+2. Semistructured-Data Model.
+
+
+Relational Model:
+
+Relation == 2D Table (These tables are what programmers are meant to think about
+when accessing/modifying data. They serve as a high level abstraction for a much
+more efficient data-structure implementation under the hood).
+Operations performed on these relations are made up of relational algebra.
+
+Database = collection of relations
+Relation=2D Table that consists of:
+
+1. Attributes: Columns of the relation
+2. Schemas: 
+	Relation Schema: Name of the relation + set of attributes for that relation
+	Database Schema: Set of all relation schemas in database
+3. Tuples: Rows of the relation (minus the header row containing the attribute names). Tuples have 1 component for each attribute.
+
+
+
+Domain: The elementary type of an attribute (string, int, etc). Each attribute of a relation must have a Domain associated with it. The domain must be atomic (can't break it down further i.e no maps, sets, objects, etc).
+
+
+You can include the Domain of each attribute in a schema like this: Movies(title:string, year:int, length:int).
+
+The order of the tuples in a relation don't matter and can be changed with no concequence.
+
+The order of attributes can also be changed (Remember the schema order must then be changed as well).
+
+
+Instance: Set of tuples for a given relation.
+
+Current Instance: Most up to date instance.
+
+Key: A type of constraint on a schema. A set of attributes forms a key for a relation if no tuples in a particular relation instance have the same values for all attributes in the key. The attributes that form a key are indicated by underling them in the schema.
+
+
+Semitructured-Data Model:
+
+Resembles trees or graphs rather than tables.
+XML is a good example of this (consisting of hierarchical nested tagged elements).
+Operations are performed on this model by following the trees or graphs to get to
+the desired element. 
+
+XML is very similar to HTML but it is designed to describe data instead of display it.
+XML is about what data IS, while HTML is about how data should LOOK.
+
+
+
+
+
+
+
+SQL (learn all below):
+
+-Declaring a relation
+-Delete a relation
+-Attributes
+-Types (including DATE and TIME)
+-Keys (Difference between PRIMARY KEY and UNIQUE)
+-All basics
+
+
+XML (learn all below):
+
+-Tags (basically like HTML, case sensitive)
+-Attributes
+-DTD's (Document Type Definitions)
