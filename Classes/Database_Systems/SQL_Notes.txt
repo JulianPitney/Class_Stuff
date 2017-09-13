@@ -1,0 +1,24 @@
+
+psql = Terminal client for interacting with DB server
+commands:
+
+\?	help on psql commands
+\h	help on sql commands
+\du	list users
+\d	list tables in current DB
+\d <table_name> 	list schema of given table
+\l	list databases
+\c <database_name> 	connect to database
+\q 	disconnect from DB
+\i <file_name>		run .sql script on currently connected DB.
+createuser <user_name>		create new user
+
+
+
+examples:
+
+ALTER USER <uname> WITH SUPERUSER; -> give existing user root privileges
+CREATE DATABASE <db_name>; -> Create new DB
+CREATE TABLE fruits (amount int, weight double); -> Create new relation called fruits with attributes amount::int and weight::double).
+
+
