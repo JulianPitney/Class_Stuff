@@ -1,0 +1,56 @@
+Relational Algebra:
+
+
+Operands: Define
+Operators: Define
+
+
+Common Set operations (both operands need to have exact same relation schema)
+
+	Union: Define
+	Intersection: Define
+	Difference: Define
+
+
+
+Selection:
+
+
+Projection:
+
+
+Products + Joins:
+
+Theta-Join = Product + Selection
+
+Natural-Join = 
+
+Self-Join =
+
+Renaming: 
+
+
+
+
+Can build expressions out of above operations. 3 Main types:
+
+1. 
+
+2. Expression Trees:
+
+3.
+
+
+Order of Operations for relational operators: 
+
+
+
+
+Schemas for resulting relations:
+
+
+
+Bags(Multiset):
+
+
+Operations On Bags:
